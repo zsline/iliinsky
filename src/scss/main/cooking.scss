@@ -1,0 +1,30 @@
+.cooking {
+    margin-bottom: 150px;
+
+    &__content {
+        &-list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        &-link {
+            background: #FFF8EB;
+            border: 1px solid #FFE7B9;
+
+        }
+
+
+        &-img {
+            left: 35%;
+            bottom: 0%;
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+
+    }
+}

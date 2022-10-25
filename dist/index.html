@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="index.html#"><img src="img/logo.png" alt="logo"></a>
+                <div class="header__nav-catalog">
+                    <button class="header__nav-catalog-btn red-btn icon-burger hover-btn"><span>Каталог</span></button>
+                    <nav class="header__menu menu">
+                        <nav class="menu__nav">
+                            <ul class="menu__nav-list">
+                                <li class="menu__nav-item">
+                                    <a href="#" class="menu__nav-link">
+                                        Акции
+                                    </a>
+                                    <span class="icon-next"></span>
+
+                                </li>
+                                <li class="menu__nav-item">
+                                    <a href="#" class="menu__nav-link">
+                                        Популярное
+                                    </a>
+                                    <span class="icon-next"></span>
+                                </li>
+                                <li class="menu__nav-item nav-active">
+                                    <a href="#" class="menu__nav-link">
+                                        Супермаркет
+                                    </a>
+                                    <span class="icon-next"></span>
+                                    <nav class="menu__nav">
+                                        <span class="menu__nav-title">Супермаркет</span>
+                                        <ul class="menu__nav-list">
+                                            <li class="menu__nav-item">
+                                                <a href="#" class="menu__nav-link">
+                                                    Вода и напитки
+                                                </a>
+                                            </li>
+                                            <li class="menu__nav-item">
+                                                <a href="#" class="menu__nav-link">
+                                                    Молоко, масло и яйца
+                                                </a>
+                                            </li>
+                                            <li class="menu__nav-item">
+                                                <a href="#" class="menu__nav-link">
+                                                    Снэки и сухофрукты
+                                                </a>
+                                            </li>
+                                            <li class="menu__nav-item">
+                                                <a href="#" class="menu__nav-link">
+                                                    Кофе, чай и сладости
+                                                </a>
+                                            </li>
+                                            <li class="menu__nav-item">
+                                                <a href="#" class="menu__nav-link">
+                                                    Макароны и крупы
+                                                </a>
+                                            </li>
+                                            <li class="menu__nav-item">
+                                                <a href="catalog.html" class="menu__nav-link">
+                                                    Хлеб и выпечка
+                                                </a>
+                                            </li>
+                                            <li class="menu__nav-item">
+                                                <a href="#" class="menu__nav-link">
+                                                    Масло, соусы и специи
+                                                </a>
+                                            </li>
+                                            <li class="menu__nav-item">
+                                                <a href="#" class="menu__nav-link">
+                                                    Консервы и соления
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </li>
+                                <li class="menu__nav-item">
+                                    <a href="#" class="menu__nav-link">
+                                        Кулинария
+                                    </a>
+                                    <span class="icon-next"></span>
+                                </li>
+                                <li class="menu__nav-item">
+                                    <a href="#" class="menu__nav-link">
+                                        Заморозка
+                                    </a>
+                                    <span class="icon-next"></span>
+                                </li>
+                                <li class="menu__nav-item">
+                                    <a href="#" class="menu__nav-link">
+                                        Другое
+                                    </a>
+                                    <span class="icon-next"></span>
+                                </li>
+                                <li class="menu__nav-item">
+                                    <a href="#" class="menu__nav-link">
+                                        Продукция от «Ильинского»
+                                    </a>
+                                    <span class="icon-next"></span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__box">
+                <form action="" class="header__search">
+                    <input type="text" placeholder="Начать поиск">
+                    <button class="icon-search"></button>
+                </form>
+                <a href="#" class="header__delivery">
+                    <div class="header__delivery-loc">
+                        <div class="icon-location"></div>
+                        <span>Киев</span>
+                    </div>
+                    <div class="header__delivery-choice">
+                        <p>Выберите способ получения</p>
+                        <span>Доставка или самовывоз</span>
+                    </div>
+                </a>
+            </div>
+            <div class="header__user">
+                <button class="header__user-favorites user-btn">
+                    <span class="icon-heard"></span>
+                </button>
+                <button class="header__user-profile user-btn">
+                    <span class="icon-user"></span>
+                </button>
+                <button class="header__user-cart red-btn icon-cart hover-btn">
+                    <span>Корзина</span>
+                </button>
+            </div>
+        </div>
+        <div class="header-category">
+            <nav class="header-category__nav">
+                <ul class="header-category__nav-list">
+                    <li class="header-category__nav-item">
+                        <a href="#" class="header-category__nav-link">
+                            Супермаркет
+                        </a>
+                        <img src="img/icons/market.png" alt="market">
+                    </li>
+                    <li class="header-category__nav-item">
+                        <a href="#" class="header-category__nav-link">
+                            Кулинария
+                        </a>
+                        <img src="img/icons/cooking.png" alt="market">
+                    </li>
+                    <li class="header-category__nav-item">
+                        <a href="#" class="header-category__nav-link">
+                            Заморозка
+                        </a>
+                        <img src="img/icons/freeze.png" alt="market">
+                    </li>
+                    <li class="header-category__nav-item">
+                        <a href="#" class="header-category__nav-link">
+                            Другое
+                        </a>
+                        <img src="img/icons/other.png" alt="market">
+                    </li>
+                    <li class="header-category__nav-item">
+                        <a href="#" class="header-category__nav-link">
+                            Акции
+                        </a>
+                        <img src="img/icons/stock.png" alt="market">
+                    </li>
+                    <li class="header-category__nav-item">
+                        <a href="#" class="header-category__nav-link">
+                            Магазины
+                        </a>
+                        <img src="img/icons/shops.png" alt="market">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="offer">
+    <h1 class="offer__title" style="visibility: hidden; height: 1px;">Интернет-магазин продуктов</h1>
+    <div class="container">
+        <div class="offer__inner">
+            <div class="offer__slider slider">
+                <ul class="slider__wripper">
+                    <li class="slider__item">
+                        <div class="slider__offer">
+                            <div class="slider__offer-title">
+                                Начните день<br> с вкусной выпечки из нашей кулинарии
+                            </div>
+                            <a href="#">Перейти к покупкам</a>
+                        </div>
+                        <img src="img/slide-1.jpg" alt="">
+                    </li>
+                </ul>
+                <div class="slider__arrows">
+                    <button class="prev-arrow arrow">
+                        <span class="icon-prev"></span>
+                    </button>
+                    <button class="next-arrow arrow">
+                        <span class="icon-next"></span>
+                    </button>
+                </div>
+                <div class="slider__dots">
+                    <button class="slider__dot slider__dot-current "></button>
+                    <button class="slider__dot"></button>
+                    <button class="slider__dot"></button>
+                    <button class="slider__dot"></button>
+                </div>
+            </div>
+            <a href="#" class="offer__cashback">
+                <div class="offer__cashback-inner">
+                    <p>Кэшбэк с каждой покупки</p>
+                    <img src="img/cashback.png" alt="">
+                </div>
+            </a>
+            <a href="#" class="offer__review">
+                <div class="offer__review-inner">
+                    <div class="offer__review-block">
+                        <img src="img/stars.png" alt="">
+                        <p>Оставьте отзыв и получи 5% скидку</p>
+                    </div>
+                    <img src="img/review.png" alt="">
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+        <section class="sale content">
+    <div class="container">
+        <div class="sale__top flex-space content__top">
+            <div class="sale__title all-title">
+                <h2>Скидки</h2>
+                <a class="sale__link watch-all" href="#">Смотреть все<span class="icon-next"></span></a>
+            </div>
+            <div class="sale__slider-btns slider-stock__btns">
+                <button class="sale__slider-prev slider-stock__btn slider-stock__btn-prev">
+                    <span class="icon-prev"></span>
+                </button>
+                <button class="sale__slider-next slider-stock__btn slider-stock__btn-next">
+                    <span class="icon-next"></span>
+                </button>
+            </div>
+        </div>
+        <div class="sale__slider slider-stock">
+            <ul class="sale__slider-wrapper slider-stock__wrapper">
+                <li class="sale__slider-item product product-sale slider-stock__item">
+                    <div class="product__item">
+                        <img src="img/product/product-1.jpg" alt="product">
+                        <div class="product__current">
+                            <span>В наличии 2 шт</span>
+                            <span>99,90 грн</span>
+                        </div>
+                        <div class="product__title">
+                            Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
+                        </div>
+                        <div class="product__cart">
+                            <div class="product__price">
+                                <div class="product__price-current">
+                                    99,90 грн
+                                </div>
+                                <div class="product__price-old">
+                                    129,00 грн
+                                </div>
+                            </div>
+                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                        </div>
+                    </div>
+                    <span class="product__sale">%</span>
+                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                </li>
+                <li class="sale__slider-item product product-like">
+                    <div class="product__item">
+                        <img src="img/product/product-2.jpg" alt="product">
+                        <div class="product__current">
+                            <span>В наличии 33 шт</span>
+                            <span>70,90 грн</span>
+                        </div>
+                        <div class="product__title">
+                            Сок Ideas тыквенно-апельсиновый, 1л
+                        </div>
+                        <div class="product__cart">
+                            <div class="product__price">
+                                <div class="product__price-current">
+                                    70,90 грн
+                                </div>
+                                <div class="product__price-old">
+                                   
+                                </div>
+                            </div>
+                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                        </div>
+                    </div>
+                    <span class="product__sale">%</span>
+                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+
+                </li>
+                <li class="sale__slider-item product product-sale">
+
+                    <div class="product__item">
+                        <img src="img/product/product-1.jpg" alt="product">
+                        <div class="product__current">
+                            <span>В наличии 2 шт</span>
+                            <span>99,90 грн</span>
+                        </div>
+                        <div class="product__title">
+                            Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
+                        </div>
+                        <div class="product__cart">
+                            <div class="product__price">
+                                <div class="product__price-current">
+                                    99,90 грн
+                                </div>
+                                <div class="product__price-old">
+                               
+                                </div>
+                            </div>
+                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                        </div>
+                    </div>
+                    <span class="product__sale">%</span>
+                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+
+                </li>
+                <li class="sale__slider-item product">
+
+                    <div class="product__item">
+                        <img src="img/product/product-2.jpg" alt="product">
+                        <div class="product__current">
+                            <span>В наличии 2 шт</span>
+                            <span>70,90 грн</span>
+                        </div>
+                        <div class="product__title">
+                            Сок Ideas тыквенно-апельсиновый, 1л
+                        </div>
+                        <div class="product__cart">
+                            <div class="product__price">
+                                <div class="product__price-current">
+                                    70,90 грн
+                                </div>
+                                <div class="product__price-old">
+                              
+                                </div>
+                            </div>
+                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                        </div>
+                    </div>
+                    <span class="product__sale">%</span>
+                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+        <section class="market content">
+    <div class="container">
+        <div class="market__top content__top">
+            <div class="market__title all-title">
+                <h2>Супермаркет</h2>
+                <a class="market__link watch-all" href="#">Смотреть все<span class="icon-next"></span></a>
+            </div>
+        </div>
+        <div class="market__content">
+            <ul class="market__content-list">
+                <li class="market__content-item content__item">
+                    <a class="market__content-link content__link" href="#">
+                        <h3 class="market__content-title content__title">Вода и напитки</h3>
+                        <div class="market__content-img bottom-img">
+                            <img src="img/product/product-3.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="market__content-item content__item">
+                    <a class="market__content-link content__link" href="#">
+                        <h3 class="market__content-title content__title">Молоко, масло и яйца</h3>
+                        <div class="market__content-img bottom-img">
+                            <img src="img/product/product-4.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="market__content-item content__item">
+                    <a class="market__content-link content__link" href="#">
+                        <h3 class="market__content-title content__title">Снэки и сухофрукты</h3>
+                        <div class="market__content-img bottom-img">
+                            <img src="img/product/product-5.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="market__content-item content__item">
+                    <a class="market__content-link content__link" href="#">
+                        <h3 class="market__content-title content__title">Кофе, чай и сладости</h3>
+                        <div class="market__content-img">
+                            <img src="img/product/product-6.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="market__content-item content__item">
+                    <a class="market__content-link content__link" href="#">
+                        <h3 class="market__content-title content__title">Макароны и крупы</h3>
+                        <div class="market__content-img scale-img">
+                            <img src="img/product/product-7.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="market__content-item content__item">
+                    <a class="market__content-link content__link" href="#">
+                        <h3 class="market__content-title content__title">Хлеб и выпечка</h3>
+                        <div class="market__content-img">
+                            <img src="img/product/product-8.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="market__content-item content__item">
+                    <a class="market__content-link content__link" href="#">
+                        <h3 class="market__content-title content__title">Масло, соусы и специи</h3>
+                        <div class="market__content-img">
+                            <img src="img/product/product-9.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="market__content-item content__item">
+                    <a class="market__content-link content__link" href="#">
+                        <h3 class="market__content-title content__title">Консервы и соления</h3>
+                        <div class="market__content-img">
+                            <img src="img/product/product-9-1.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+        <section class="cooking content">
+    <div class="container">
+        <div class="cooking__top content__top">
+            <div class="cooking__title all-title">
+                <h2>Кулинария</h2>
+                <a class="cooking__link watch-all" href="#">Смотреть все<span class="icon-next"></span></a>
+            </div>
+        </div>
+        <div class="cooking__content">
+            <ul class="cooking__content-list">
+                <li class="cooking__content-item content__item">
+                    <a class="cooking__content-link content__link" href="#">
+                        <h3 class="cooking__content-title content__title">Выпечка</h3>
+                        <div class="cooking__content-img content__img">
+                            <img src="img/product/product-10.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="cooking__content-item content__item">
+                    <a class="cooking__content-link content__link" href="#">
+                        <h3 class="cooking__content-title content__title">Пиццы</h3>
+                        <div class="cooking__content-img content__img scale-img">
+                            <img src="img/product/product-11.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="cooking__content-item content__item">
+                    <a class="cooking__content-link content__link" href="#">
+                        <h3 class="cooking__content-title content__title">Гриль-меню</h3>
+                        <div class="cooking__content-img content__img scale-img">
+                            <img src="img/product/product-12.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="cooking__content-item content__item">
+                    <a class="cooking__content-link content__link" href="#">
+                        <h3 class="cooking__content-title content__title">Свежее мясо</h3>
+                        <div class="cooking__content-img content__img">
+                            <img src="img/product/product-12-1.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="cooking__content-item content__item">
+                    <a class="cooking__content-link content__link" href="#">
+                        <h3 class="cooking__content-title content__title">Салаты</h3>
+                        <div class="cooking__content-img content__img scale-img">
+                            <img src="img/product/product-13.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="cooking__content-item content__item">
+                    <a class="cooking__content-link content__link" href="#">
+                        <h3 class="cooking__content-title content__title">Супы</h3>
+                        <div class="cooking__content-img content__img scale-img">
+                            <img src="img/product/product-14.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="cooking__content-item content__item">
+                    <a class="cooking__content-link content__link" href="#">
+                        <h3 class="cooking__content-title content__title">Горячие блюда</h3>
+                        <div class="cooking__content-img content__img scale-img">
+                            <img src="img/product/product-15.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="cooking__content-item content__item">
+                    <a class="cooking__content-link content__link" href="#">
+                        <h3 class="cooking__content-title content__title">Десерты</h3>
+                        <div class="cooking__content-img content__img">
+                            <img src="img/product/product-16.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+        <section class="freezing content">
+    <div class="container">
+        <div class="freezing__top content__top">
+            <div class="freezing__title all-title">
+                <h2>Заморозка</h2>
+                <a class="freezing__link watch-all" href="#">Смотреть все<span class="icon-next"></span></a>
+            </div>
+        </div>
+        <div class="freezing__content">
+            <ul class="freezing__content-list">
+                <li class="freezing__content-item content__item">
+                    <a class="freezing__content-link content__link" href="#">
+                        <h3 class="freezing__content-title content__title">Пельмени, вареники и равиоли</h3>
+                        <div class="freezing__content-img content__img scale-img">
+                            <img src="img/product/product-17.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="freezing__content-item content__item">
+                    <a class="freezing__content-link content__link" href="#">
+                        <h3 class="freezing__content-title content__title">Хинкали и манты</h3>
+                        <div class="freezing__content-img content__img">
+                            <img src="img/product/product-18.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="freezing__content-item content__item">
+                    <a class="freezing__content-link content__link" href="#">
+                        <h3 class="freezing__content-title content__title">Полу-фабрикаты</h3>
+                        <div class="freezing__content-img content__img">
+                            <img src="img/product/product-19.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="freezing__content-item content__item">
+                    <a class="freezing__content-link content__link" href="#">
+                        <h3 class="freezing__content-title content__title">Замороженные овощи</h3>
+                        <div class="freezing__content-img content__img">
+                            <img src="img/product/product-20.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="freezing__content-item content__item">
+                    <a class="freezing__content-link content__link" href="#">
+                        <h3 class="freezing__content-title content__title">Рыба и морепродукты</h3>
+                        <div class="freezing__content-img content__img scale-img">
+                            <img src="img/product/product-21.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="freezing__content-item content__item">
+                    <a class="freezing__content-link content__link" href="#">
+                        <h3 class="freezing__content-title content__title">Мясо</h3>
+                        <div class="freezing__content-img content__img right-img">
+                            <img src="img/product/product-22.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+        <section class="other content">
+    <div class="container">
+        <div class="other__top content__top">
+            <div class="other__title all-title">
+                <h2>Другое</h2>
+                <a class="other__link watch-all" href="#">Смотреть все<span class="icon-next"></span></a>
+            </div>
+        </div>
+        <div class="other__content">
+            <ul class="other__content-list">
+                <li class="other__content-item content__item">
+                    <a class="other__content-link content__link" href="#">
+                        <h3 class="other__content-title content__title">Красота и гигиена</h3>
+                        <div class="other__content-img content__img  bottom-img">
+                            <img src="img/product/product-23.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="other__content-item content__item">
+                    <a class="other__content-link content__link" href="#">
+                        <h3 class="other__content-title content__title">Стирка и уборка</h3>
+                        <div class="other__content-img content__img bottom-img">
+                            <img src="img/product/product-24.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="other__content-item content__item">
+                    <a class="other__content-link content__link" href="#">
+                        <h3 class="other__content-title content__title">Полезные мелочи</h3>
+                        <div class="other__content-img content__img">
+                            <img src="img/product/product-25.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+                <li class="other__content-item content__item">
+                    <a class="other__content-link content__link" href="#">
+                        <h3 class="other__content-title content__title">Бытовая техника</h3>
+                        <div class="other__content-img content__img">
+                            <img src="img/product/product-26.png" alt="product">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+        <section class="stock content">
+    <div class="container">
+        <div class="stock__top flex-space content__top">
+            <div class="stock__title all-title">
+                <h2>Акции</h2>
+                <a class="stock__link watch-all" href="#">Смотреть все<span class="icon-next"></span></a>
+            </div>
+            <div class="stock__slider-btns slider-stock__btns">
+                <button class="stock__slider-prev slider-stock__btn">
+                    <span class="icon-prev"></span>
+                </button>
+                <button class="stock__slider-next slider-stock__btn">
+                    <span class="icon-next"></span>
+                </button>
+            </div>
+        </div>
+        <div class="stock__slider slider-stock">
+            <ul class="stock__slider-wrapper slider-stock__wrapper">
+                <li class="stock__slider-item stock-card slider-stock__item">
+                    <a href="#" class="stock-card__item">
+                        <h3 class="stock-card__title">
+                            Сделать предзаказ в кулинарии со скидкой
+                        </h3>
+                        <img src="img/product/stock-1.png" alt="stock-card">
+                    </a>
+                </li>
+                <li class="stock__slider-item stock-card slider-stock__item">
+                    <a href="#" class="stock-card__item">
+                        <h3 class="stock-card__title">
+                            Праздник к нам приходит
+                        </h3>
+                        <img src="img/product/stock-2.png" alt="stock-card">
+                    </a>
+                </li>
+                <li class="stock__slider-item stock-card slider-stock__item">
+                    <a href="#" class="stock-card__item">
+                        <h3 class="stock-card__title">
+                            Скидка на третий товар в корзине «Чистая линия»
+                        </h3>
+                        <img src="img/product/stock-3.png" alt="stock-card">
+                    </a>
+                </li>
+                <li class="stock__slider-item stock-card slider-stock__item">
+                    <a href="#" class="stock-card__item">
+                        <h3 class="stock-card__title">
+                            Комбо-набор 3 пиццы за 1500 ₽
+                        </h3>
+                        <img src="img/product/stock-4.png" alt="stock-card">
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+</section>
+        <section class="delivery">
+    <div class="container">
+        <h2 class="delivery__title">Доставка и оплата</h2>
+        <div class="delivery__inner">
+            <div class="delivery__info">
+                <span>Зоны доставки</span>
+                <p>
+                    Доставка осуществляется в районе ЖК «Ильинские Луга» (Харьковськая обл., Красногорск, пос.
+                    Ильинское-Усово, ул. Заповедная) и ЖК «Новая Рига» (Харьковськая обл., Красногорск, д. Глухово, ул.
+                    Рублевское Предместье)
+                </p>
+                <span>25 минут</span>
+                <p>
+                    Доставка 25 минут. Принимаем заказы с 7:00 до 23:00
+                </p>
+                <span>300 грн</span>
+                <p>
+                    Минимальная сумма бесплатной доставки с учетом скидок.
+                    Иначе стоимость доставке 50 грн
+                </p>
+                <span>Оплата</span>
+                <p>
+                    При оформлении заказа вы можете выбрать удобный для вас спобос рассчета
+                </p>
+                <p>
+                    Изображения продуктов могут отличаться от продуктов в заказе.
+                </p>
+            </div>
+            <div class="delivery__map">
+                <span>Карта доставки</span>
+                <img src="img/map.jpg" alt="map">
+            </div>
+        </div>
+    </div>
+</section>
+        <div class="container">
+    <div class="free-delivery">
+        <div class="free-delivery__info">
+            <div class="free-delivery__title">
+                Бесплатная доставка + скидка 10%
+            </div>
+            <div class="free-delivery__text">
+                <p>первого заказа</p>
+                <p>на заказы кулинарии</p>
+            </div>
+        </div>
+        <button class="free-delivery__btn oval-btn hover-btn">Получить промокод</button>
+    </div>
+</div>
+        <section class="feeling">
+    <div class="container">
+        <div class="feeling__inner">
+            <div class="feeling__info">
+                <div class="feeling__title">
+                    Оцените магазин
+                </div>
+                <p>Поделитесь впечатлениями о заказе<br> и помогите сделать нас лучше</p>
+            </div>
+            <div class="feeling__rating">
+                <fieldset class="rating">
+    <legend class="rating__caption">Оцените магазин</legend>
+    <input class="rating__star" type="radio" name="star" value="1" aria-label="ужасно">
+    <input class="rating__star" type="radio" name="star" value="1" aria-label="плохо">
+    <input class="rating__star" type="radio" name="star" value="1" aria-label="нормально" >
+    <input class="rating__star" type="radio" name="star" value="1" aria-label="хорошо">
+    <input class="rating__star" type="radio" name="star" value="1" aria-label="отлично" checked>
+</fieldset>
+
+                <button class="feeling__rating-btn oval-btn hover-btn">Оставить отзыв</button>
+            </div>
+            <div class="feeling__decor">
+                <img src="img/product/feedback.png" alt="feedback">
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__nav">
+            <div class="footer__nav-online online">
+                <h5>Ильинский онлайн</h5>
+                <nav class="online__nav">
+                    <ul class="online__nav-list">
+                        <li class="online__nav-item">
+                            <a href="#" class="online__nav-link">
+                                Кулинария
+                            </a>
+                        </li>
+                        <li class="online__nav-item">
+                            <a href="#" class="online__nav-link">
+                                Супермаркет
+                            </a>
+                        </li>
+                        <li class="online__nav-item">
+                            <a href="#" class="online__nav-link">
+                                Заморозка
+                            </a>
+                        </li>
+                        <li class="online__nav-item">
+                            <a href="#" class="online__nav-link">
+                                Другое
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__nav-club club">
+                <h5>Ильинский клуб</h5>
+                <nav class="club__nav">
+                    <ul class="club__nav-list">
+                        <li class="club__nav-item">
+                            <a href="#" class="club__nav-link">
+                                Акции
+                            </a>
+                        </li>
+                        <li class="club__nav-item">
+                            <a href="#" class="club__nav-link">
+                                Доставка и оплата
+                            </a>
+                        </li>
+                        <li class="club__nav-item">
+                            <a href="#" class="club__nav-link">
+                                Программа лояльности
+                            </a>
+                        </li>
+                        <li class="club__nav-item">
+                            <a href="#" class="club__nav-link">
+                                Политика конфиденциальности
+                            </a>
+                        </li>
+                        <li class="club__nav-item">
+                            <a href="#" class="club__nav-link">
+                                Вакансии
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__nav-contacts contacts">
+                <nav class="contacts__nav">
+                    <ul class="contacts__nav-list">
+                        <li class="contacts__nav-item">
+                            <div class="icon-phone">
+                                <a class="contacts__nav-link contacts__phone" href="tel:38000490999">
+                                    +38 (000) 49-09-99
+                                </a>
+                            </div>
+                            <span>Ежедневно c 09:00 до 21:00</span>
+                        </li>
+                        <li class="contacts__nav-item icon-location-strock">
+                            <a href="#" class="contacts__nav-link">
+                                Адреса магазинов
+                            </a>
+                        </li>
+                        <li class="contacts__nav-item icon-insta">
+                            <a href="#" class="contacts__nav-link">
+                                Следите за нами
+                            </a>
+                        </li>
+                        <li class="contacts__nav-item icon-mail">
+                            <a href="#" class="contacts__nav-link">
+                                Обратная связь
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__nav-feedback feedback">
+                <h4>Подпишитесь на вкусные и полезые новости</h4>
+                <form action="" class="feedback__form">
+                    <div class="feedback__form-input">
+                        <input type="text">
+                        <button class="corner-btn hover-btn">Подписаться</button>
+                    </div>
+                    <label>
+                        <input type="radio">
+                        Согласен с политикой конфиденциальности
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <div class="footer__copy-text">
+                © 2022 Ильинский онлайн — доставкатоваров и продуктов на дом
+            </div>
+            <p>Информация на сайте не является публичной офертой</p>
+            <div class="footer__copy-pay">
+                <a href="#"><img src="img/icons/visa.png" alt="visa"></a>
+                <a href="#"><img src="img/icons/mastercard.png" alt="mastercard"></a>
+            </div>
+            <div class="footer__copy-autor">
+                <p>Разработано в </p>
+                <img src="img/icons/gazizov.png" alt="gazizov">
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="js/app.min.js"></script>
+</body>
+</html>

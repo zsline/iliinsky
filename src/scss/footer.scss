@@ -1,0 +1,118 @@
+.footer {
+    background-color: var(--guardsman-red);
+    padding: 37px 0 17px;
+    color: #fff;
+    font-size: 12px;
+
+    button {
+        border: 1px solid #FFFFFF;
+        
+    }
+
+    .feedback {
+        &__form {
+
+
+            &-input {
+                display: flex;
+                justify-content: space-between;
+                gap: 12px;
+                height: 46px;
+                margin: 10px 0;
+
+                input {
+                    height: 100%;
+                    width: 100%;
+                    background-color: #fff;
+                    padding: 0 10px;
+                    font-size: 18px;
+                    border-radius: 16px;
+                }
+            }
+
+            label {
+                display: flex;
+                align-items: center;
+                gap: 7px;
+
+                input {
+                    width: 14px;
+                    height: 14px;
+                }
+
+            }
+        }
+
+    }
+
+    &__nav {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin-bottom: 60px;
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
+
+    &__copy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-pay {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        &-autor {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+
+    .contacts {
+        &__phone {
+            font-family: 'Nunito';
+            display: inline-block;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            padding-bottom: 5px;
+        }
+        span{
+            display: block;
+        }
+        &__nav{
+            &-link{
+            font-family: 'Nunito';
+            }
+            .icon-phone::before{
+                position: relative;
+                font-size: 22px;
+                line-height: 28px;
+                top: 2px;
+            }
+        }
+        span{
+            opacity: 0.4;
+            padding-left: 30px;
+        }
+        li{
+            margin-bottom: 10px;
+
+        }
+        li::before{
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 15px;
+            min-width: 22px;
+        }
+    }
+    h5{
+        margin-bottom: 10px;
+    }
+}

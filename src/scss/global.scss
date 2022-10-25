@@ -1,0 +1,443 @@
+body {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+h2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 154%;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.container {
+    max-width: 1350px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.red-btn {
+    max-height: 48px;
+    padding: 12px 15px;
+    background-color: var(--accent);
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+
+    &::before {
+        margin-right: 8px;
+    }
+
+    span {
+        font-family: Nunito;
+    }
+}
+
+.user-btn {
+    padding: 15px 16px;
+    border-radius: 12px;
+}
+
+.product {
+    box-sizing: border-box;
+    position: relative;
+    width: 304px;
+    height: auto;
+    min-height: 406px;
+    background: #fff;
+    padding: 20px;
+    padding-top: 0;
+    border: 1px solid var(--alto);
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+
+    &__item {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    img {
+        display: block;
+        height: 220px;
+        max-width: 304px;
+        width: 100%;
+        object-fit: contain;
+        margin: 35px auto;
+    }
+
+    &__current {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 7px;
+    }
+
+    &__cart {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+        margin-top: auto;
+
+        &-btn {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            padding: 0 15px;
+            border-radius: 50px;
+            height: 40px;
+        }
+    }
+
+    &__price {
+        &-current {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            color: var(--tundora);
+        }
+
+        &-old {
+            text-decoration: line-through;
+            color: var(--tundora);
+        }
+
+    }
+
+    &__favorites {
+        position: absolute;
+        top: 17px;
+        right: 21px;
+        font-size: 22px;
+        color: var(--alto);
+    }
+
+    &__sale {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33px;
+        padding: 0 15px;
+        color: #fff;
+        background-color: var(--accent);
+        border-bottom-right-radius: 20px;
+    }
+}
+
+.product__price-old {
+    display: none;
+}
+
+.product-sale .product__price-current {
+    color: var(--guardsman-red);
+}
+
+.product-sale .product__sale {
+    display: block;
+}
+
+.product-sale .product__price-old {
+    display: block;
+}
+
+.product-like .product__favorites {
+    color: var(--accent);
+}
+
+.watch-all {
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    max-height: 46px;
+    border: 1px solid #FFE7B9;
+    border-radius: 16px;
+    color: var(--orange);
+    background-color: var(--ping);
+    margin-left: 30px;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: var(--orange);
+        color: #fff;
+    }
+
+    span {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+}
+
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oval-btn {
+    padding: 13px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    transition: all 0.3s;
+}
+
+.trans-btn {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    transition: all 0.3s;
+}
+
+.trans-btn:hover {
+    background-color: var(--accent);
+    color: #fff;
+}
+
+.corner-btn {
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    height: 100%;
+    padding: 10px 15px;
+    color: inherit;
+}
+
+.hover-btn {
+    transition: all 0.3s;
+    border: 1px solid transparent;
+
+    &:hover {
+        background-color: rgba(#fff, $alpha: 0.9);
+        color: var(--persimmon);
+        border: 1px solid var(--persimmon);
+    }
+}
+
+.menu {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    padding-top: 38px;
+    padding-left: 38px;
+    padding-bottom: 44px;
+    width: 700px;
+    height: auto;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    overflow: hidden;
+
+    &__nav {
+        &-list {
+            width: 330px;
+            border-right: 4px solid #E0E0E0;
+            padding-right: 15px;
+
+        }
+
+        &-item {
+            width: 330px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+
+            :hover>a {
+                color: var(--accent);
+            }
+
+            :hover+span {
+                color: var(--accent);
+            }
+
+            span {
+                font-size: 14px;
+            }
+
+            .menu__nav {
+                position: absolute;
+                top: 0;
+                left: 382px;
+                padding-top: 38px;
+                padding-left: 38px;
+
+                ::-webkit-scrollbar {
+                    width: 6px;
+                }
+
+                ::-webkit-scrollbar-track {
+                    background: #E0E0E0;
+                    border-radius: 3px;
+
+                }
+
+                ::-webkit-scrollbar-thumb {
+                    background-color: #FF9E9E;
+                    border-radius: 3px;
+                }
+
+                &-title {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin-bottom: 38px;
+                }
+
+                &-list {
+                    max-height: 340px;
+                    width: 296px;
+                    overflow-Y: scroll;
+                    overflow-x: hidden;
+                    border: none;
+
+                }
+            }
+        }
+    }
+
+    .nav-active>a {
+        color: var(--accent);
+    }
+
+    .nav-active>span {
+        color: var(--accent);
+    }
+}
+
+.names__nav-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.checkbox-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0.25em 0;
+    padding-left: 1.5em;
+}
+
+.checkbox-input {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.checkbox-item {
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    border: 0.3em solid var(--light-orange);
+    background-color: var(--light-orange);
+    box-sizing: content-box;
+}
+
+.checkbox-input:checked+.checkbox-item {
+    background-color: var(--accent);
+}
+
+.checkbox-input:disabled+.checkbox-item {
+    opacity: 0.5;
+}
+
+.checkbox-input:focus-visible+.checkbox-item {
+    border: 0.3em solid var(--orange);
+}
+
+.input-text {
+    width: 100%;
+    min-height: 36px;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+
+    ::placeholder {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #C4B4B4;
+    }
+}
+.visibility-hidden{
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}

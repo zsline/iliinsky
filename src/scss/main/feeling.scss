@@ -1,0 +1,47 @@
+.feeling {
+    margin-bottom: 90px;
+
+    &__inner {
+        position: relative;
+        background-color: var(--ping);
+        padding: 28px 63px;
+        border: 1px solid var(--peach);
+        border-radius: 16px;
+        display: flex;
+        align-items: start;
+        gap: 150px;
+
+    }
+
+    &__rating {
+        width: 300px;
+        &-btn {
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 30px;
+            margin-top: 30px;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 52px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    &__decor {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

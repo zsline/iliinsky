@@ -1,0 +1,32 @@
+.free-delivery {
+    padding: 40px 60px;
+    color: #fff;
+    background: radial-gradient(68.58% 1403.4% at 73.62% -94.51%, #FF1F00 0%, #FF7715 100%);
+    border-radius: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 100px;
+
+    &__info {
+        max-width: 800px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 52px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 60px;
+    }
+
+    &__btn {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+}

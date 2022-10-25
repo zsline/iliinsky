@@ -1,0 +1,35 @@
+.delivery {
+    margin-bottom: 90px;
+    &__title{
+        margin-bottom: 62px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    &__info{
+        max-width: 622px;
+    }
+
+    span {
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        color: var(--accent);
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 33px;
+    }
+
+    img {
+        margin-top: 15px;
+        border-radius: 26px;
+    }
+}

@@ -1,0 +1,121 @@
+@font-face {
+	font-family: icomoon;
+	font-display: swap;
+	src: url("../fonts/icomoon.woff2") format("woff2"), url("../fonts/icomoon.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-Black.woff2") format("woff2"), url("../fonts/Nunito-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-Bold.woff2") format("woff2"), url("../fonts/Nunito-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-ExtraBold.woff2") format("woff2"), url("../fonts/Nunito-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-SemiBold.woff2") format("woff2"), url("../fonts/Nunito-SemiBold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-Medium.woff2") format("woff2"), url("../fonts/Nunito-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	font-display: swap;
+	src: url("../fonts/Nunito-Regular.woff2") format("woff2"), url("../fonts/Nunito-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-stock:before {
+    content: "\e912";
+  }
+  .icon-burger:before {
+    content: "\e900";
+  }
+  .icon-cart:before {
+    content: "\e901";
+  }
+  .icon-check:before {
+    content: "\e902";
+  }
+  .icon-clock:before {
+    content: "\e903";
+  }
+  .icon-close:before {
+    content: "\e904";
+  }
+  .icon-delete:before {
+    content: "\e905";
+  }
+  .icon-heard:before {
+    content: "\e906";
+  }
+  .icon-insta:before {
+    content: "\e907";
+  }
+  .icon-location:before {
+    content: "\e908";
+  }
+  .icon-location-strock:before {
+    content: "\e909";
+  }
+  .icon-mail:before {
+    content: "\e90a";
+  }
+  .icon-next:before {
+    content: "\e90b";
+  }
+  .icon-phone:before {
+    content: "\e90c";
+  }
+  .icon-prev:before {
+    content: "\e90d";
+  }
+  .icon-repeat:before {
+    content: "\e90e";
+  }
+  .icon-search:before {
+    content: "\e90f";
+  }
+  .icon-triangle:before {
+    content: "\e910";
+  }
+  .icon-user:before {
+    content: "\e911";
+  }
+  

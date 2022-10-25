@@ -1,0 +1,31 @@
+.sidebar {
+    &__marker {
+        &-checks {
+            margin-top: 0.2em;
+
+
+        }
+    }
+
+
+    &__block {
+        margin-bottom: 2em;
+    }
+
+    &__menu {
+        &-item {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            padding: 4px 25px;
+            cursor: pointer;
+            &:hover{
+                background: var(--ping);
+            }
+        }
+        .active{
+            background: var(--ping);
+        }
+    }
+}
+

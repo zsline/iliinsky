@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html',{
+"title":"Хлеб и выпечка"
+})
+
+<body>
+    @@include('html/header.html',{})
+    <main>
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__top flex-space">
+                    <h1>Хлеб и выпечка</h1>
+                    <button class="catalog__btn">По популярности<span class="icon-next"> </span></button>
+                </div>
+                <div class="catalog__inner">
+                    @@include('html/catalog/sidebar.html',{})
+                    <div class="catalog__products">
+                        <div class="catalog__products-names names">
+                            <nav class="names__nav">
+                                <ul class="names__nav-list" data-product="bread-product">
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn" data-filter="bread">
+                                            Хлеб
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn" data-filter="cakes">
+                                            Лаваш и лепешки
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn" data-filter="bake">
+                                            Выпечка
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn" data-filter="pizza">
+                                            Пицца
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn" data-filter="croutons">
+                                            Баранки и сухарики
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn" data-filter="khlebtsy">
+                                            Хлебцы
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn" data-filter="veggie">
+                                            Вегетарианцам
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn" data-filter="nogluten">
+                                            Безглютеновая продукция
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                    <li class="names__nav-item">
+                                        <button class="names__nav-btn catalog__btn reset-btn" data-filter="all">
+                                            Очистить фильтр
+                                            <span></span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="catalog__products-inner">
+                            <ul class="catalog__products-list">
+                                <li class="catalog__product-item product" data-product="bread">
+                                    <div class="product__item">
+                                        <img src="@img/product/product-27.jpg" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 2 шт</span>
+                                            <span>99,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    99,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="bread">
+                                    <div class="product__item">
+                                        <img src="@img/product/product-28.jpg" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 2 шт</span>
+                                            <span>99,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    99,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="pizza">
+                                    <div class="product__item">
+                                        <img src="@img/product/pizza-5.png" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 12 шт</span>
+                                            <span>108,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Пицца «Барбекю» 500 г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    108,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product product-sale" data-product="bread">
+                                    <div class="product__item">
+                                        <img src="@img/product/product-29.jpg" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 2 шт</span>
+                                            <span>99,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    99,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="pizza">
+                                    <div class="product__item">
+                                        <img src="@img/product/pizza-4.png" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 12 шт</span>
+                                            <span>108,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Пицца «Четыре сыра» 500 г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    108,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="pizza">
+                                    <div class="product__item">
+                                        <img src="@img/product/pizza-3.png" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 12 шт</span>
+                                            <span>108,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Пицца «Папперони» полуфабрикат 575 г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    108,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product product-sale" data-product="cakes">
+                                    <div class="product__item">
+                                        <img src="@img/product/product-38.png" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 8 шт</span>
+                                            <span>59,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Лаваш "Х/З №1" Армянский 140 гр.
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    59,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    70,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="cakes">
+                                    <div class="product__item">
+                                        <img src="@img/product/product-41.png" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 2 шт</span>
+                                            <span>27,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Лаваш «Київхліб» «Персидский»
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    27,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    29,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="pizza">
+                                    <div class="product__item">
+                                        <img src="@img/product/pizza-2.png" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 12 шт</span>
+                                            <span>108,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Пицца «Барбекю» полуфабрикат 580 г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    108,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="bread">
+                                    <div class="product__item">
+                                        <img src="@img/product/product-30.jpg" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 2 шт</span>
+                                            <span>99,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    99,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="pizza">
+                                    <div class="product__item">
+                                        <img src="@img/product/pizza-1.png" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 12 шт</span>
+                                            <span>108,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Пицца «Гавайская» 500 г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    108,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product product-sale" data-product="bread">
+                                    <div class="product__item">
+                                        <img src="@img/product/product-31.jpg" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 2 шт</span>
+                                            <span>99,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    99,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                                <li class="catalog__product-item product" data-product="cakes">
+                                    <div class="product__item">
+                                        <img src="@img/product/product-39.png" alt="product">
+                                        <div class="product__current">
+                                            <span>В наличии 2 шт</span>
+                                            <span>17,90 грн</span>
+                                        </div>
+                                        <div class="product__title">
+                                            Лаваш «Крафтяр» «Грузинский»
+                                        </div>
+                                        <div class="product__cart">
+                                            <div class="product__price">
+                                                <div class="product__price-current">
+                                                    17,90 грн
+                                                </div>
+                                                <div class="product__price-old">
+                                                    129,00 грн
+                                                </div>
+                                            </div>
+                                            <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                                        </div>
+                                    </div>
+                                    <span class="product__sale">%</span>
+                                    <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                @@include('html/catalog/recommendation.html',{})
+                @@include('html/main/web-search.html',{})
+            </div>
+        </section>
+
+
+
+    </main>
+    @@include('html/footer.html',{})
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
