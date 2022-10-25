@@ -1,3 +1,4 @@
+
 {
     "market": [
         {
@@ -35,9 +36,7 @@
                     "title": "Консервы и соления",
                     "img": "supermarket-8.png"
                 }
-            ]
-        },
-        {
+            ],
             "products": [
                 {
                     "name-menu": "Вода и напитки",
@@ -182,9 +181,7 @@
                     "title": "Десерты",
                     "img": "cooking-8.png"
                 }
-            ]
-        },
-        {
+            ],
             "products": [
                 {
                     "name-menu": "Выпечка",
@@ -439,9 +436,7 @@
                     "title": "Мясо",
                     "img": "freezing-6.png"
                 }
-            ]
-        },
-        {
+            ],
             "products": [
                 {
                     "name-menu": "Пельмени, вареники и равиоли",
@@ -561,9 +556,7 @@
                     "title": "Бытовая техника",
                     "img": "other-6.png"
                 }
-            ]
-        },
-        {
+            ],
             "products": [
                 {
                     "name-menu": "Красота и гигиена",
