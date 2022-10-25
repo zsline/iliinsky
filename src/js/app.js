@@ -24,7 +24,7 @@ request.onload = function() {
 function categoryName (jsObj){
     let category = jsObj;
     for (let i = 0; i < category.length; i++){
-console.log([i]);
+console.log(i);
     }
 }
 
