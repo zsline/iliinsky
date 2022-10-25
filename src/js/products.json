@@ -1,646 +1,655 @@
-
-[  
-     { "market": [
-        {
-            "name-menu": "супермаркет",
-            "banners": [
-                {
-                    "title": "Вода и напитки",
-                    "img": "supermarket-1.png"
-                },
-                {
-                    "title": "Молоко, масло и яйца",
-                    "img": "supermarket-2.png"
-                },
-                {
-                    "title": "Снэки и сухофрукты",
-                    "img": "supermarket-3.png"
-                },
-                {
-                    "title": "Кофе, чай и сладости",
-                    "img": "supermarket-4.png"
-                },
-                {
-                    "title": "Макароны и крупы",
-                    "img": "supermarket-5.png"
-                },
-                {
-                    "title": "Хлеб и выпечка",
-                    "img": "supermarket-6.png"
-                },
-                {
-                    "title": "Масло, соусы и специи",
-                    "img": "supermarket-7.png"
-                },
-                {
-                    "title": "Консервы и соления",
-                    "img": "supermarket-8.png"
-                }
-            ]
-        },
-        {
-            "products": [
-                {
-                    "name-menu": "Вода и напитки",
-                    "drinkables": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Молоко, масло и яйца",
-                    "milk": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Снэки и сухофрукты",
-                    "snacks": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Кофе, чай и сладости",
-                    "coffe": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Макароны и крупы",
-                    "pasta": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Хлеб и выпечка",
-                    "bread": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Масло, соусы и специи",
-                    "spices": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Консервы и соления",
-                    "canned-food": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                }
-            ]
-        }
-    ]},
-    {"cooking": [
-        {
-            "name-menu": "кулинария",
-            "banners": [
-                {
-                    "title": "Выпечка",
-                    "img": "cooking-1.png"
-                },
-                {
-                    "title": "Пиццы",
-                    "img": "cooking-2.png"
-                },
-                {
-                    "title": "Гриль-меню",
-                    "img": "cooking-3.png"
-                },
-                {
-                    "title": "Свежее мясо",
-                    "img": "cooking-4.png"
-                },
-                {
-                    "title": "Салаты",
-                    "img": "cooking-5.png"
-                },
-                {
-                    "title": "Супы",
-                    "img": "cooking-6.png"
-                },
-                {
-                    "title": "Горячие блюда",
-                    "img": "cooking-7.png"
-                },
-                {
-                    "title": "Десерты",
-                    "img": "cooking-8.png"
-                }
-            ]
-        },
-        {
-            "products": [
-                {
-                    "name-menu": "Выпечка",
-                    "bakery": [
-                        {
-                            "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Пиццы",
-                    "pizza": [
-                        {
-                            "name": "Пицца «Барбекю»",
-                            "img": "pizza-5.png",
-                            "price": 108.90,
-                            "oldprice": 0,
-                            "weight": 500,
-                            "quantity": 18,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пицца «Четыре сыра»",
-                            "img": "pizza-5.png",
-                            "price": 108.90,
-                            "oldprice": 0,
-                            "weight": 500,
-                            "quantity": 12,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пицца «Папперони» полуфабрикат",
-                            "img": "pizza-5.png",
-                            "price": 108.90,
-                            "oldprice": 0,
-                            "weight": 575,
-                            "quantity": 11,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пицца «Барбекю» полуфабрикат",
-                            "img": "pizza-5.png",
-                            "price": 108.90,
-                            "oldprice": 0,
-                            "weight": 580,
-                            "quantity": 3,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пицца «Гавайская»",
-                            "img": "pizza-5.png",
-                            "price": 108.90,
-                            "oldprice": 0,
-                            "weight": 500,
-                            "quantity": 18,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Гриль-меню",
-                    "grill": [
-                        {
-                            "name": "Стейк Баттер Пеппер гриль",
-                            "img": "grill-1.jpg",
-                            "price": 840,
-                            "weight": 300,
-                            "oldprice": 0,
-                            "quantity": 10,
-                            "sale": false
-                        },
-                        {
-                            "name": "Каре телятины гриль",
-                            "img": "grill-2.jpg",
-                            "price": 320,
-                            "weight": 200,
-                            "oldprice": 0,
-                            "quantity": 8,
-                            "sale": false
-                        },
-                        {
-                            "name": "Стейк Денвер гриль",
-                            "img": "grill-3.jpg",
-                            "price": 460,
-                            "weight": 400,
-                            "oldprice": 0,
-                            "quantity": 8,
-                            "sale": false
-                        },
-                        {
-                            "name": "Вирезка телячая в пряном маринаде",
-                            "img": "grill-4.jpg",
-                            "price": 238,
-                            "weight": 250,
-                            "oldprice": 0,
-                            "quantity": 6,
-                            "sale": false
-                        },
-                        {
-                            "name": "Баклажан на гриле",
-                            "img": "grill-5.jpg",
-                            "price": 70,
-                            "weight": 100,
-                            "oldprice": 0,
-                            "quantity": 6,
-                            "sale": false
-                        },
-                        {
-                            "name": "Стейк Портерхаус USA гриль",
-                            "img": "grill-6.jpg",
-                            "price": 2700,
-                            "weight": 900,
-                            "oldprice": 0,
-                            "quantity": 3,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Салаты",
-                    "salads": [
-                        {
-                            "name": "Салат Греческий",
-                            "img": "salad-1.jpg",
-                            "price": 265,
-                            "oldprice": 0,
-                            "weight": 260,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Салат з козьим сыром и свеклой",
-                            "img": "salad-2.jpg",
-                            "price": 315,
-                            "oldprice": 0,
-                            "weight": 230,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Салат со шпинатом, грушей и горгонзолой",
-                            "img": "salad-3.jpg",
-                            "price": 300,
-                            "oldprice": 0,
-                            "weight": 200,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Салат з ростбифом",
-                            "img": "salad-4.jpg",
-                            "price": 315,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Салат Цезарь",
-                            "img": "salad-5.jpg",
-                            "price": 290,
-                            "oldprice": 0,
-                            "weight": 230,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Супы",
-                    "soups": [
-                        {
-                            "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Горячие блюда",
-                    "hot-dishes": [
-                        {
-                            "name": "Пельмени фри",
-                            "img": "hot-dishes-1.jpg",
-                            "price": 195,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пельмени светофор",
-                            "img": "hot-dishes-2.jpg",
-                            "price": 150,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Десерты",
-                    "desserts": [
-                        {
-                            "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                }
-            ]
-        }
-    ]},
-    {"freezing": [
-        {
-            "name-menu": "заморозка",
-            "banners": [
-                {
-                    "title": "Пельмени, вареники и равиоли",
-                    "img": "freezing-1.png"
-                },
-                {
-                    "title": "Хинкали и манты",
-                    "img": "freezing-2.png"
-                },
-                {
-                    "title": "Полу-фабрикаты",
-                    "img": "freezing-3.png"
-                },
-                {
-                    "title": "Замороженные овощи",
-                    "img": "freezing-4.png"
-                },
-                {
-                    "title": "Рыба и морепродукты",
-                    "img": "freezing-5.png"
-                },
-                {
-                    "title": "Мясо",
-                    "img": "freezing-6.png"
-                }
-            ]
-        },
-        {
-            "products": [
-                {
-                    "name-menu": "Пельмени, вареники и равиоли",
-                    "dumplings": [
-                        {
-                            "name": "Пельмени с телятиной",
-                            "img": "dumplings-1.jpg",
-                            "price": 290,
-                            "oldprice": 0,
-                            "weight": 400,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пельмени с кроликом",
-                            "img": "dumplings-2.jpg",
-                            "price": 295,
-                            "oldprice": 0,
-                            "weight": 400,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пельмени со свининой и телятиной",
-                            "img": "dumplings-3.jpg",
-                            "price": 260,
-                            "oldprice": 0,
-                            "weight": 400,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пельмени с индейкой",
-                            "img": "dumplings-4.jpg",
-                            "price": 280,
-                            "oldprice": 0,
-                            "weight": 400,
-                            "quantity": 2,
-                            "sale": false
-                        },
-                        {
-                            "name": "Пельмени детские с курицей",
-                            "img": "dumplings-5.jpg",
-                            "price": 290,
-                            "oldprice": 0,
-                            "weight": 400,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Хинкали и манты",
-                    "khinkali": [
-                        {
-                            "subcategory": "snacks",
-                            "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Полуфабрикаты",
-                    "semi-finished": [
-                        {
-                            "subcategory": "snacks",
-                            "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Замороженные овощи",
-                    "vegetables": [
-                        {
-                            "subcategory": "snacks",
-                            "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                }
-            ]
-        }
-    ]},
-    {"other": [
-        {
-            "name-menu": "другое",
-            "banners": [
-                {
-                    "title": "Красота и гигиена",
-                    "img": "other-3.png"
-                },
-                {
-                    "title": "Стирка и уборка",
-                    "img": "other-4.png"
-                },
-                {
-                    "title": "Полезные мелочи",
-                    "img": "other-5.png"
-                },
-                {
-                    "title": "Бытовая техника",
-                    "img": "other-6.png"
-                }
-            ]
-        },
-        {
-            "products": [
-                {
-                    "name-menu": "Красота и гигиена",
-                    "hygiene": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Стирка и уборка",
-                    "cleaning": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Полезные мелочи",
-                    "useful": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                },
-                {
-                    "name-menu": "Бытовая техника",
-                    "appliances": [
-                        {
-                            "name": "",
-                            "img": "img.png",
-                            "price": 0,
-                            "oldprice": 0,
-                            "weight": 220,
-                            "quantity": 2,
-                            "sale": false
-                        }
-                    ]
-                }
-            ]
-        }
-    ]},
-{    "stock": [
-        {
-            "title": "Сделать предзаказ в кулинарии со скидкой",
-            "img": "stock-3.png"
-        },
-        {
-            "title": "Праздник к нам приходит",
-            "img": "stock-4.png"
-        },
-        {
-            "title": "Скидка на третий товар в корзине «Чистая линия»",
-            "img": "stock-5.png"
-        },
-        {
-            "title": "Комбо-набор 3 пиццы за 1500 ₽",
-            "img": "stock-6.png"
-        }
-    ]}
-]
+{
+    {
+        "market": [
+            {
+                "name-menu": "супермаркет",
+                "banners": [
+                    {
+                        "title": "Вода и напитки",
+                        "img": "supermarket-1.png"
+                    },
+                    {
+                        "title": "Молоко, масло и яйца",
+                        "img": "supermarket-2.png"
+                    },
+                    {
+                        "title": "Снэки и сухофрукты",
+                        "img": "supermarket-3.png"
+                    },
+                    {
+                        "title": "Кофе, чай и сладости",
+                        "img": "supermarket-4.png"
+                    },
+                    {
+                        "title": "Макароны и крупы",
+                        "img": "supermarket-5.png"
+                    },
+                    {
+                        "title": "Хлеб и выпечка",
+                        "img": "supermarket-6.png"
+                    },
+                    {
+                        "title": "Масло, соусы и специи",
+                        "img": "supermarket-7.png"
+                    },
+                    {
+                        "title": "Консервы и соления",
+                        "img": "supermarket-8.png"
+                    }
+                ]
+            },
+            {
+                "products": [
+                    {
+                        "name-menu": "Вода и напитки",
+                        "drinkables": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Молоко, масло и яйца",
+                        "milk": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Снэки и сухофрукты",
+                        "snacks": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Кофе, чай и сладости",
+                        "coffe": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Макароны и крупы",
+                        "pasta": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Хлеб и выпечка",
+                        "bread": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Масло, соусы и специи",
+                        "spices": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Консервы и соления",
+                        "canned-food": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cooking": [
+            {
+                "name-menu": "кулинария",
+                "banners": [
+                    {
+                        "title": "Выпечка",
+                        "img": "cooking-1.png"
+                    },
+                    {
+                        "title": "Пиццы",
+                        "img": "cooking-2.png"
+                    },
+                    {
+                        "title": "Гриль-меню",
+                        "img": "cooking-3.png"
+                    },
+                    {
+                        "title": "Свежее мясо",
+                        "img": "cooking-4.png"
+                    },
+                    {
+                        "title": "Салаты",
+                        "img": "cooking-5.png"
+                    },
+                    {
+                        "title": "Супы",
+                        "img": "cooking-6.png"
+                    },
+                    {
+                        "title": "Горячие блюда",
+                        "img": "cooking-7.png"
+                    },
+                    {
+                        "title": "Десерты",
+                        "img": "cooking-8.png"
+                    }
+                ]
+            },
+            {
+                "products": [
+                    {
+                        "name-menu": "Выпечка",
+                        "bakery": [
+                            {
+                                "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Пиццы",
+                        "pizza": [
+                            {
+                                "name": "Пицца «Барбекю»",
+                                "img": "pizza-5.png",
+                                "price": 108.90,
+                                "oldprice": 0,
+                                "weight": 500,
+                                "quantity": 18,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пицца «Четыре сыра»",
+                                "img": "pizza-5.png",
+                                "price": 108.90,
+                                "oldprice": 0,
+                                "weight": 500,
+                                "quantity": 12,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пицца «Папперони» полуфабрикат",
+                                "img": "pizza-5.png",
+                                "price": 108.90,
+                                "oldprice": 0,
+                                "weight": 575,
+                                "quantity": 11,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пицца «Барбекю» полуфабрикат",
+                                "img": "pizza-5.png",
+                                "price": 108.90,
+                                "oldprice": 0,
+                                "weight": 580,
+                                "quantity": 3,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пицца «Гавайская»",
+                                "img": "pizza-5.png",
+                                "price": 108.90,
+                                "oldprice": 0,
+                                "weight": 500,
+                                "quantity": 18,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Гриль-меню",
+                        "grill": [
+                            {
+                                "name": "Стейк Баттер Пеппер гриль",
+                                "img": "grill-1.jpg",
+                                "price": 840,
+                                "weight": 300,
+                                "oldprice": 0,
+                                "quantity": 10,
+                                "sale": false
+                            },
+                            {
+                                "name": "Каре телятины гриль",
+                                "img": "grill-2.jpg",
+                                "price": 320,
+                                "weight": 200,
+                                "oldprice": 0,
+                                "quantity": 8,
+                                "sale": false
+                            },
+                            {
+                                "name": "Стейк Денвер гриль",
+                                "img": "grill-3.jpg",
+                                "price": 460,
+                                "weight": 400,
+                                "oldprice": 0,
+                                "quantity": 8,
+                                "sale": false
+                            },
+                            {
+                                "name": "Вирезка телячая в пряном маринаде",
+                                "img": "grill-4.jpg",
+                                "price": 238,
+                                "weight": 250,
+                                "oldprice": 0,
+                                "quantity": 6,
+                                "sale": false
+                            },
+                            {
+                                "name": "Баклажан на гриле",
+                                "img": "grill-5.jpg",
+                                "price": 70,
+                                "weight": 100,
+                                "oldprice": 0,
+                                "quantity": 6,
+                                "sale": false
+                            },
+                            {
+                                "name": "Стейк Портерхаус USA гриль",
+                                "img": "grill-6.jpg",
+                                "price": 2700,
+                                "weight": 900,
+                                "oldprice": 0,
+                                "quantity": 3,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Салаты",
+                        "salads": [
+                            {
+                                "name": "Салат Греческий",
+                                "img": "salad-1.jpg",
+                                "price": 265,
+                                "oldprice": 0,
+                                "weight": 260,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Салат з козьим сыром и свеклой",
+                                "img": "salad-2.jpg",
+                                "price": 315,
+                                "oldprice": 0,
+                                "weight": 230,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Салат со шпинатом, грушей и горгонзолой",
+                                "img": "salad-3.jpg",
+                                "price": 300,
+                                "oldprice": 0,
+                                "weight": 200,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Салат з ростбифом",
+                                "img": "salad-4.jpg",
+                                "price": 315,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Салат Цезарь",
+                                "img": "salad-5.jpg",
+                                "price": 290,
+                                "oldprice": 0,
+                                "weight": 230,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Супы",
+                        "soups": [
+                            {
+                                "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Горячие блюда",
+                        "hot-dishes": [
+                            {
+                                "name": "Пельмени фри",
+                                "img": "hot-dishes-1.jpg",
+                                "price": 195,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пельмени светофор",
+                                "img": "hot-dishes-2.jpg",
+                                "price": 150,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Десерты",
+                        "desserts": [
+                            {
+                                "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "freezing": [
+            {
+                "name-menu": "заморозка",
+                "banners": [
+                    {
+                        "title": "Пельмени, вареники и равиоли",
+                        "img": "freezing-1.png"
+                    },
+                    {
+                        "title": "Хинкали и манты",
+                        "img": "freezing-2.png"
+                    },
+                    {
+                        "title": "Полу-фабрикаты",
+                        "img": "freezing-3.png"
+                    },
+                    {
+                        "title": "Замороженные овощи",
+                        "img": "freezing-4.png"
+                    },
+                    {
+                        "title": "Рыба и морепродукты",
+                        "img": "freezing-5.png"
+                    },
+                    {
+                        "title": "Мясо",
+                        "img": "freezing-6.png"
+                    }
+                ]
+            },
+            {
+                "products": [
+                    {
+                        "name-menu": "Пельмени, вареники и равиоли",
+                        "dumplings": [
+                            {
+                                "name": "Пельмени с телятиной",
+                                "img": "dumplings-1.jpg",
+                                "price": 290,
+                                "oldprice": 0,
+                                "weight": 400,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пельмени с кроликом",
+                                "img": "dumplings-2.jpg",
+                                "price": 295,
+                                "oldprice": 0,
+                                "weight": 400,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пельмени со свининой и телятиной",
+                                "img": "dumplings-3.jpg",
+                                "price": 260,
+                                "oldprice": 0,
+                                "weight": 400,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пельмени с индейкой",
+                                "img": "dumplings-4.jpg",
+                                "price": 280,
+                                "oldprice": 0,
+                                "weight": 400,
+                                "quantity": 2,
+                                "sale": false
+                            },
+                            {
+                                "name": "Пельмени детские с курицей",
+                                "img": "dumplings-5.jpg",
+                                "price": 290,
+                                "oldprice": 0,
+                                "weight": 400,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Хинкали и манты",
+                        "khinkali": [
+                            {
+                                "subcategory": "snacks",
+                                "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Полуфабрикаты",
+                        "semi-finished": [
+                            {
+                                "subcategory": "snacks",
+                                "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Замороженные овощи",
+                        "vegetables": [
+                            {
+                                "subcategory": "snacks",
+                                "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "other": [
+            {
+                "name-menu": "другое",
+                "banners": [
+                    {
+                        "title": "Красота и гигиена",
+                        "img": "other-3.png"
+                    },
+                    {
+                        "title": "Стирка и уборка",
+                        "img": "other-4.png"
+                    },
+                    {
+                        "title": "Полезные мелочи",
+                        "img": "other-5.png"
+                    },
+                    {
+                        "title": "Бытовая техника",
+                        "img": "other-6.png"
+                    }
+                ]
+            },
+            {
+                "products": [
+                    {
+                        "name-menu": "Красота и гигиена",
+                        "hygiene": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Стирка и уборка",
+                        "cleaning": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Полезные мелочи",
+                        "useful": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    },
+                    {
+                        "name-menu": "Бытовая техника",
+                        "appliances": [
+                            {
+                                "name": "",
+                                "img": "img.png",
+                                "price": 0,
+                                "oldprice": 0,
+                                "weight": 220,
+                                "quantity": 2,
+                                "sale": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "stock": [
+            {
+                "title": "Сделать предзаказ в кулинарии со скидкой",
+                "img": "stock-3.png"
+            },
+            {
+                "title": "Праздник к нам приходит",
+                "img": "stock-4.png"
+            },
+            {
+                "title": "Скидка на третий товар в корзине «Чистая линия»",
+                "img": "stock-5.png"
+            },
+            {
+                "title": "Комбо-набор 3 пиццы за 1500 ₽",
+                "img": "stock-6.png"
+            }
+        ]
+    }
+}

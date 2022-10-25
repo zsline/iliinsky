@@ -13,18 +13,18 @@ const swiper = new Swiper();
 const url = 'https://zsline.github.io/iliinsky/src/js/products.json';
 const request = new XMLHttpRequest();
 request.open('GET', url);
-request.responseType = 'json';
+request.responseType = 'text';
 request.send();
 request.onload = function() {
     const productCategory = request.response;
-    // const dataProducts = JSON.parse(productCategory);
-    categoryName(productCategory);
-    // console.log(productCategory);
+    const jsonProduct = JSON.parse(productCategory);
+    categoryName(categoryName);
+    console.log(jsonProduct);
   }
 function categoryName (jsObj){
     let category = jsObj;
     for (let i = 0; i < category.length; i++){
-console.log(i);
+console.log(i['name-menu']);
     }
 }
 
