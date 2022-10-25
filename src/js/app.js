@@ -24,7 +24,8 @@ request.onload = function() {
 function categoryName (jsObj){
     let category = jsObj;
     for (let i = 0; i < category.length; i++){
-        // console.log(i);
+        let a = [i].nameMenu
+        console.log(a);
     }
 }
 
