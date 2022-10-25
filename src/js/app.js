@@ -18,13 +18,13 @@ request.send();
 request.onload = function() {
     const productCategory = request.response;
     const jsonProduct = JSON.parse(productCategory);
-    categoryName(categoryName);
     console.log(jsonProduct);
+    categoryName(jsonProduct);
   }
 function categoryName (jsObj){
     let category = jsObj;
     for (let i = 0; i < category.length; i++){
-console.log(i['name-menu']);
+console.log([i]);
     }
 }
 
