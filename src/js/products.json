@@ -37,7 +37,8 @@
     "products": [
         {
             "nameMenu": "Вода и напитки",
-            "drinkables": [
+            "nameFilter": "drinkables",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -50,6 +51,7 @@
         },
         {
             "nameMenu": "Молоко, масло и яйца",
+            "nameFilter": "milk",
             "milk": [
                 {
                     "name": "",
@@ -63,7 +65,8 @@
         },
         {
             "nameMenu": "Снэки и сухофрукты",
-            "snacks": [
+            "nameFilter": "snacks",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -76,7 +79,8 @@
         },
         {
             "nameMenu": "Кофе, чай и сладости",
-            "coffe": [
+            "nameFilter": "coffe",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -89,7 +93,8 @@
         },
         {
             "nameMenu": "Макароны и крупы",
-            "pasta": [
+            "nameFilter": "pasta",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -102,7 +107,8 @@
         },
         {
             "nameMenu": "Хлеб и выпечка",
-            "bread": [
+            "nameFilter": "bread",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -115,7 +121,8 @@
         },
         {
             "nameMenu": "Масло, соусы и специи",
-            "spices": [
+            "nameFilter": "spices",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -128,7 +135,8 @@
         },
         {
             "nameMenu": "Консервы и соления",
-            "canned-food": [
+            "nameFilter": "canned-food",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -180,7 +188,8 @@
     "products": [
         {
             "nameMenu": "Выпечка",
-            "bakery": [
+            "nameFilter": "bakery",
+            "product": [
                 {
                     "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
@@ -193,7 +202,8 @@
         },
         {
             "nameMenu": "Пиццы",
-            "pizza": [
+            "nameFilter": "pizza",
+            "product": [
                 {
                     "name": "Пицца «Барбекю»",
                     "img": "pizza-5.png",
@@ -243,7 +253,8 @@
         },
         {
             "nameMenu": "Гриль-меню",
-            "grill": [
+            "nameFilter": "grill",
+            "product": [
                 {
                     "name": "Стейк Баттер Пеппер гриль",
                     "img": "grill-1.jpg",
@@ -302,7 +313,8 @@
         },
         {
             "nameMenu": "Салаты",
-            "salads": [
+            "nameFilter": "salads",
+            "product": [
                 {
                     "name": "Салат Греческий",
                     "img": "salad-1.jpg",
@@ -352,7 +364,8 @@
         },
         {
             "nameMenu": "Супы",
-            "soups": [
+            "nameFilter": "soups",
+            "product": [
                 {
                     "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
@@ -365,7 +378,8 @@
         },
         {
             "nameMenu": "Горячие блюда",
-            "hot-dishes": [
+            "nameFilter": "hot-dishes",
+            "product": [
                 {
                     "name": "Пельмени фри",
                     "img": "hot-dishes-1.jpg",
@@ -388,7 +402,8 @@
         },
         {
             "nameMenu": "Десерты",
-            "desserts": [
+            "nameFilter": "desserts",
+            "product": [
                 {
                     "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
@@ -433,7 +448,8 @@
     "products": [
         {
             "nameMenu": "Пельмени, вареники и равиоли",
-            "dumplings": [
+            "nameFilter": "dumplings",
+            "product": [
                 {
                     "name": "Пельмени с телятиной",
                     "img": "dumplings-1.jpg",
@@ -483,7 +499,8 @@
         },
         {
             "nameMenu": "Хинкали и манты",
-            "khinkali": [
+            "nameFilter": "khinkali",
+            "product": [
                 {
                     "subcategory": "snacks",
                     "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
@@ -498,7 +515,8 @@
         },
         {
             "nameMenu": "Полуфабрикаты",
-            "semi-finished": [
+            "nameFilter": "semi-finished",
+            "product": [
                 {
                     "subcategory": "snacks",
                     "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
@@ -513,7 +531,8 @@
         },
         {
             "nameMenu": "Замороженные овощи",
-            "vegetables": [
+            "nameFilter": "vegetables",
+            "product": [
                 {
                     "subcategory": "snacks",
                     "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
@@ -551,7 +570,8 @@
     "products": [
         {
             "nameMenu": "Красота и гигиена",
-            "hygiene": [
+            "nameFilter": "hygiene",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -565,7 +585,8 @@
         },
         {
             "nameMenu": "Стирка и уборка",
-            "cleaning": [
+            "nameFilter": "cleaning",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -579,7 +600,8 @@
         },
         {
             "nameMenu": "Полезные мелочи",
-            "useful": [
+            "nameFilter": "useful",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",
@@ -593,7 +615,8 @@
         },
         {
             "nameMenu": "Бытовая техника",
-            "appliances": [
+            "nameFilter": "appliances",
+            "product": [
                 {
                     "name": "",
                     "img": "img.png",

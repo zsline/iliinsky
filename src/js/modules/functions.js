@@ -63,7 +63,7 @@ export function productFilter(productList, data) {
 //  ПОЛУЧЕНИЕ ТОВАРОВ
 
 //  получение товаров из файла JSON
-const cat = "";
+
 const url = 'https://zsline.github.io/iliinsky/src/js/products.json';
 const request = new XMLHttpRequest();
 request.open('GET', url);
@@ -71,15 +71,17 @@ request.responseType = 'text';
 request.send();
 request.onload = function () {
     const productCategory = request.response;
-    const jsonProduct = JSON.parse(productCategory);
-
-    console.log(jsonProduct);
-    
-    const jsonCategory = jsonProduct[0].products;
-    const cat = categoryName(jsonProduct);
-    const cat1 = categoryName(jsonCategory);
-    // console.log(cat[1]);
-    // console.log(cat1[2]);
+    const jsonProducts = JSON.parse(productCategory);    
+    const jsonCategory = jsonProducts[0].products;
+    const jsonProduct = jsonCategory[2];
+    const cat1 = categoryName(jsonProducts);
+    const cat2 = categoryName(jsonCategory);
+    const cat3 = categoryName(jsonProduct);
+    console.log(jsonProducts);
+    console.log(jsonCategory);
+    // console.log(cat1);
+    console.log(cat2);
+    // console.log(cat3);
 }
 
 function categoryName(jsObj) {
@@ -92,4 +94,3 @@ function categoryName(jsObj) {
     return catNames
 }
 
-    console.log(cat);
