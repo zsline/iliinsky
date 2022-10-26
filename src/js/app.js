@@ -10,22 +10,5 @@ const swiper = new Swiper();
 
 
 
-const url = 'https://zsline.github.io/iliinsky/src/js/products.json';
-const request = new XMLHttpRequest();
-request.open('GET', url);
-request.responseType = 'json';
-request.send();
-request.onload = function() {
-    const productCategory = request.response;
-    // const jsonProduct = JSON.parse(productCategory);
-    console.log(productCategory);
-    categoryName(productCategory);
-  }
-function categoryName (jsObj){
-    let category = jsObj;
-    for (let i = 0; i < category.length; i++){
-        let a = category[i].nameMenu
-        console.log(a);
-    }
-}
+
 
