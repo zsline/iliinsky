@@ -44,6 +44,7 @@
                     "img": "drinkables-1.jpg",
                     "price": 19.9,
                     "oldprice": "",
+                    "weight": "",
                     "quantity": 47,
                     "sale": false
                 },
@@ -52,6 +53,7 @@
                     "img": "drinkables-2.jpg",
                     "price": 17.9,
                     "oldprice": 19.9,
+                    "weight": "",
                     "quantity": 47,
                     "sale": false
                 },
@@ -60,6 +62,7 @@
                     "img": "drinkables-3.jpg",
                     "price": 17.9,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 47,
                     "sale": false
                 },
@@ -68,6 +71,7 @@
                     "img": "drinkables-4.jpg",
                     "price": 17.9,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 47,
                     "sale": false
                 },
@@ -76,6 +80,7 @@
                     "img": "drinkables-5.jpg",
                     "price": 56.90,
                     "oldprice": 70.00,
+                    "weight": "",
                     "quantity": 47,
                     "sale": false
                 }
@@ -90,6 +95,7 @@
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }
@@ -104,6 +110,7 @@
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }
@@ -118,6 +125,7 @@
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }
@@ -132,6 +140,7 @@
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }
@@ -143,9 +152,55 @@
             "product": [
                 {
                     "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
-                    "img": "img.png",
+                    "img": "bread-1.jpg",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
+                    "quantity": 2,
+                    "sale": false
+                },
+                {
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                    "img": "bread-2.jpg",
+                    "price": 0,
+                    "oldprice": 0,
+                    "weight": "",
+                    "quantity": 2,
+                    "sale": false
+                },
+                {
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                    "img": "bread-3.jpg",
+                    "price": 0,
+                    "oldprice": 0,
+                    "weight": "",
+                    "quantity": 2,
+                    "sale": false
+                },
+                {
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                    "img": "bread-4.jpg",
+                    "price": 0,
+                    "oldprice": 0,
+                    "weight": "",
+                    "quantity": 2,
+                    "sale": false
+                },
+                {
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                    "img": "bread-5.jpg",
+                    "price": 0,
+                    "oldprice": 0,
+                    "weight": "",
+                    "quantity": 2,
+                    "sale": false
+                },
+                {
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
+                    "img": "bread-6.jpg",
+                    "price": 0,
+                    "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }
@@ -160,6 +215,7 @@
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }
@@ -174,6 +230,7 @@
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }
@@ -227,6 +284,7 @@
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }
@@ -291,8 +349,8 @@
                     "name": "Стейк Баттер Пеппер гриль",
                     "img": "grill-1.jpg",
                     "price": 840,
-                    "weight": 300,
                     "oldprice": 0,
+                    "weight": 300,
                     "quantity": 10,
                     "sale": false
                 },
@@ -300,8 +358,8 @@
                     "name": "Каре телятины гриль",
                     "img": "grill-2.jpg",
                     "price": 320,
-                    "weight": 200,
                     "oldprice": 0,
+                    "weight": 200,
                     "quantity": 8,
                     "sale": false
                 },
@@ -309,8 +367,8 @@
                     "name": "Стейк Денвер гриль",
                     "img": "grill-3.jpg",
                     "price": 460,
-                    "weight": 400,
                     "oldprice": 0,
+                    "weight": 400,
                     "quantity": 8,
                     "sale": false
                 },
@@ -318,8 +376,8 @@
                     "name": "Вирезка телячая в пряном маринаде",
                     "img": "grill-4.jpg",
                     "price": 238,
-                    "weight": 250,
                     "oldprice": 0,
+                    "weight": 250,
                     "quantity": 6,
                     "sale": false
                 },
@@ -327,8 +385,8 @@
                     "name": "Баклажан на гриле",
                     "img": "grill-5.jpg",
                     "price": 70,
-                    "weight": 100,
                     "oldprice": 0,
+                    "weight": 100,
                     "quantity": 6,
                     "sale": false
                 },
@@ -336,8 +394,8 @@
                     "name": "Стейк Портерхаус USA гриль",
                     "img": "grill-6.jpg",
                     "price": 2700,
-                    "weight": 900,
                     "oldprice": 0,
+                    "weight": 900,
                     "quantity": 3,
                     "sale": false
                 }
@@ -403,6 +461,7 @@
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
+                    "weight": "",
                     "quantity": 2,
                     "sale": false
                 }

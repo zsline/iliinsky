@@ -91,6 +91,9 @@ request.onload = function () {
                         </li>
                         `)
                         }
+                        if(item.oldprice > 0){
+                            document.querySelector('.product').classList.add('product-sale');
+                        }
                     }
 
                 }
@@ -144,28 +147,3 @@ function productFilter(productList, data) {
 }
 
 
-{/* <li class="catalog__product-item product" data-product="bread">
-<div class="product__item">
-    <img src="@img/product/product-27.jpg" alt="product">
-    <div class="product__current">
-        <span>В наличии 2 шт</span>
-        <span>99,90 грн</span>
-    </div>
-    <div class="product__title">
-        Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
-    </div>
-    <div class="product__cart">
-        <div class="product__price">
-            <div class="product__price-current">
-                99,90 грн
-            </div>
-            <div class="product__price-old">
-                129,00 грн
-            </div>
-        </div>
-        <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
-    </div>
-</div>
-<span class="product__sale">%</span>
-<button class="product__favorites icon-heard" aria-label="В избранное"></button>
-</li> */}
