@@ -40,11 +40,43 @@
             "nameFilter": "drinkables",
             "product": [
                 {
-                    "name": "",
-                    "img": "img.png",
-                    "price": 0,
+                    "name": "Напиток Бон Буассон Bitter Lemon Fresh сильногазированный, 1л",
+                    "img": "drinkables-1.jpg",
+                    "price": 19.9,
+                    "oldprice": "",
+                    "quantity": 47,
+                    "sale": false
+                },
+                {
+                    "name": "Напиток Бон Буассон Bitter Lemon Fresh сильногазированный, 1л",
+                    "img": "drinkables-2.jpg",
+                    "price": 17.9,
+                    "oldprice": 19.9,
+                    "quantity": 47,
+                    "sale": false
+                },
+                {
+                    "name": "Напиток Fremo Aloe Vera Pineapple, 500 мл",
+                    "img": "drinkables-3.jpg",
+                    "price": 17.9,
                     "oldprice": 0,
-                    "quantity": 2,
+                    "quantity": 47,
+                    "sale": false
+                },
+                {
+                    "name": "Напиток Luck Siam Клубника, 290 мл",
+                    "img": "drinkables-4.jpg",
+                    "price": 17.9,
+                    "oldprice": 0,
+                    "quantity": 47,
+                    "sale": false
+                },
+                {
+                    "name": "Напиток Luck Siam Апельсин, 290 мл",
+                    "img": "drinkables-5.jpg",
+                    "price": 56.90,
+                    "oldprice": 70.00,
+                    "quantity": 47,
                     "sale": false
                 }
             ]
@@ -54,7 +86,7 @@
             "nameFilter": "milk",
             "milk": [
                 {
-                    "name": "",
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
@@ -68,7 +100,7 @@
             "nameFilter": "snacks",
             "product": [
                 {
-                    "name": "",
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
@@ -82,7 +114,7 @@
             "nameFilter": "coffe",
             "product": [
                 {
-                    "name": "",
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
@@ -96,7 +128,7 @@
             "nameFilter": "pasta",
             "product": [
                 {
-                    "name": "",
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
@@ -110,7 +142,7 @@
             "nameFilter": "bread",
             "product": [
                 {
-                    "name": "",
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
@@ -124,7 +156,7 @@
             "nameFilter": "spices",
             "product": [
                 {
-                    "name": "",
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,
@@ -138,7 +170,7 @@
             "nameFilter": "canned-food",
             "product": [
                 {
-                    "name": "",
+                    "name": "Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г",
                     "img": "img.png",
                     "price": 0,
                     "oldprice": 0,

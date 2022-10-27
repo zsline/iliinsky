@@ -17,8 +17,99 @@ export function isWebp() {
 
 
 
-const products = document.querySelectorAll('.catalog__product-item');
-const sidebarMenu = document.querySelectorAll('.sidebar__menu-item');
+
+
+
+const catalogProducts = document.querySelector('.catalog__products-inner');
+let products = "";
+
+let sidebarMenu = "";
+//  ПОЛУЧЕНИЕ ТОВАРОВ
+
+//  получение товаров из файла JSON на сервере
+
+const url = 'https://zsline.github.io/iliinsky/src/js/products.json';
+const request = new XMLHttpRequest();
+request.open('GET', url);
+request.responseType = 'text';
+request.send();
+request.onload = function () {
+    const productCategory = request.response;
+    const Products = JSON.parse(productCategory);
+    const sidebar = document.getElementById('sidebar__menu');
+    const ulProduct = document.createElement('ul');
+    ulProduct.classList.add('catalog__products-list');
+    catalogProducts.appendChild(ulProduct);
+    for (let key of Products) {
+        const ul = document.createElement('ul');
+        ul.classList.add('sidebar__menu-list')
+        ul.classList.add('sidebar__block')
+        let row = document.createElement('h6');
+        row.innerHTML = `${key.nameMenu}`;
+        ul.appendChild(row);
+        sidebar.appendChild(ul);
+
+
+        if (key.products !== undefined) {
+            for (let item of key.products) {
+                let li = document.createElement('li');
+                li.classList.add('sidebar__menu-item');
+                li.setAttribute('data-filter', item.nameFilter);
+                li.innerHTML = `${item.nameMenu}`;
+                ul.appendChild(li);
+            }
+            key.products.forEach((element) => {
+                if (element.product !== undefined) {
+                    for (let item of element.product) {
+                        let productBlock = document.querySelector('.catalog__products-list');
+                        if (item.name !== '' && item.img !== '') {
+                            productBlock.insertAdjacentHTML('afterbegin', `
+                        <li class="catalog__product-item product" data-product="${element.nameFilter}">
+                        <div class="product__item">
+                            <img src="img/product/${item.img}" alt="product">
+                            <div class="product__current">
+                                <span>В наличии 2 шт</span>
+                                <span>${item.price} грн</span>
+                            </div>
+                            <div class="product__title">
+                                ${item.name}, ${item.weight}г
+                            </div>
+                            <div class="product__cart">
+                                <div class="product__price">
+                                    <div class="product__price-current">
+                                    ${item.price} грн
+                                    </div>
+                                    <div class="product__price-old">
+                                    ${item.oldprice} грн
+                                    </div>
+                                </div>
+                                <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+                            </div>
+                        </div>
+                        <span class="product__sale">%</span>
+                        <button class="product__favorites icon-heard" aria-label="В избранное"></button>
+                        </li>
+                        `)
+                        }
+                    }
+
+                }
+
+            })
+        }
+        products = document.querySelectorAll('.catalog__product-item')
+
+    }
+
+    productFilter();
+    sidebarMenu = document.querySelectorAll('.sidebar__menu-item');
+}
+
+
+
+
+
+// функция фильтрации товаров
 
 // массовое удаление класса
 function deleteClass(arr, clasItem) {
@@ -27,20 +118,11 @@ function deleteClass(arr, clasItem) {
     })
 }
 
-// массовое добавление класса 
-function addClass(arr, clasItem) {
-    arr.forEach(item => {
-        item.classList.add(clasItem);
-    })
-}
 
-
-// функция фильтрации товаров
-
-export function productFilter(productList, data) {
+function productFilter(productList, data) {
     productList = products;
     document.addEventListener('click', (event) => {
-        deleteClass(sidebarMenu, 'active');
+        deleteClass(sidebarMenu, 'active')
         if (event.target.classList.contains('catalog__btn') || event.target.classList.contains('sidebar__menu-item')) {
             data = event.target.dataset.filter;
             productList.forEach(item => {
@@ -51,6 +133,7 @@ export function productFilter(productList, data) {
                 }
                 if (event.target.dataset.filter == 'all') {
                     deleteClass(products, 'visibility-hidden')
+                    deleteClass(sidebarMenu, 'active')
                 }
             })
         }
@@ -59,38 +142,30 @@ export function productFilter(productList, data) {
         }
     });
 }
- 
-//  ПОЛУЧЕНИЕ ТОВАРОВ
 
-//  получение товаров из файла JSON
 
-const url = 'https://zsline.github.io/iliinsky/src/js/products.json';
-const request = new XMLHttpRequest();
-request.open('GET', url);
-request.responseType = 'text';
-request.send();
-request.onload = function () {
-    const productCategory = request.response;
-    const jsonProducts = JSON.parse(productCategory);    
-    const jsonCategory = jsonProducts[0].products;
-    const jsonProduct = jsonCategory[2];
-    const cat1 = categoryName(jsonProducts);
-    const cat2 = categoryName(jsonCategory);
-    const cat3 = categoryName(jsonProduct);
-    console.log(jsonProducts);
-    console.log(jsonCategory);
-    // console.log(cat1);
-    console.log(cat2);
-    // console.log(cat3);
-}
-
-function categoryName(jsObj) {
-    let catNames = [];
-    let category = jsObj;
-    for (let i = 0; i < category.length; i++) {
-        let names = category[i].nameMenu;
-        catNames.push(names);
-    }
-    return catNames
-}
-
+{/* <li class="catalog__product-item product" data-product="bread">
+<div class="product__item">
+    <img src="@img/product/product-27.jpg" alt="product">
+    <div class="product__current">
+        <span>В наличии 2 шт</span>
+        <span>99,90 грн</span>
+    </div>
+    <div class="product__title">
+        Гранола Мюсли Bionova ягодные запечённые хрустящие, 400г
+    </div>
+    <div class="product__cart">
+        <div class="product__price">
+            <div class="product__price-current">
+                99,90 грн
+            </div>
+            <div class="product__price-old">
+                129,00 грн
+            </div>
+        </div>
+        <button class="product__cart-btn" aria-label="В корзину">В корзину</button>
+    </div>
+</div>
+<span class="product__sale">%</span>
+<button class="product__favorites icon-heard" aria-label="В избранное"></button>
+</li> */}
